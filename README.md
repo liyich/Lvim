@@ -4,7 +4,8 @@ A vim distribution
 Installation 
 git clone https://github.com/liyich/Lvi.git. 
 
-Plugins
+Plugins:
+
 autoPairs 
 syntastic 
 ultisnips
