@@ -2,7 +2,8 @@
 A vim distribution
 
 Installation 
-git clone https://github.com/liyich/Lvi.git
+git clone https://github.com/liyich/Lvi.git. 
+
 Plugins
 autoPairs 
 syntastic 
