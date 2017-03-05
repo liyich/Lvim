@@ -16,6 +16,11 @@ filetype plugin indent on    " required
 ""===============================
 let mapleader=';'
 
+"key
+""===============================
+nmap <Leader>f <Plug>(easymotion-bd-f)
+nmap <Leader><leader>f <Plug>(easymotion-overwin-f)
+
 
 "set
 ""===============================
