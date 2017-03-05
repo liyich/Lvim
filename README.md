@@ -2,7 +2,7 @@
 A vim distribution
 
 Installation 
-git clone https://github.com/liyich/Lvi.git. 
+git clonehttps://github.com/liyich/Lvim.git
 
 Plugins:
 
