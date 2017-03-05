@@ -28,6 +28,8 @@ syntax enable
 syntax on
 set omnifunc=syntaxcomplete#Complete
 set completeopt=menu
+colorscheme elflord
+set vb t_vb= "no error voice
 
 
 "clang complete
