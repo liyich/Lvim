@@ -1,8 +1,8 @@
-# Lvim
+ # Lvim
 A vim distribution
 
 Installation 
-git clonehttps://github.com/liyich/Lvim.git
+git clone https://github.com/liyich/Lvim.git
 
 Plugins:
 
