@@ -28,13 +28,11 @@ syntax enable
 syntax on
 set omnifunc=syntaxcomplete#Complete
 set completeopt=menu
+set belloff=all
 colorscheme elflord
-set vb t_vb= "no error voice
-
-
 "clang complete
 ""=============================================================================================================
-let g:clang_library_path='.vim/libclang-3.8.1.so'
+let g:clang_library_path='/usr/lib/llvm-3.8/lib'
 
 "ultisnips
 ""=============================================================================================================
