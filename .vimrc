@@ -32,7 +32,7 @@ syntax enable
 syntax on
 set omnifunc=syntaxcomplete#Complete
 set completeopt=menu
-set belloff=all
+set vb t_vb=
 colorscheme elflord
 set nocp
 filetype on
