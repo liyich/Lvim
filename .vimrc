@@ -7,8 +7,8 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'SirVer/ultisnips'
 Plugin 'scrooloose/syntastic'
-Plugin 'vim-airline/vim-airline'
-Plugin 'myint/clang-complete'
+Plugin 'scrooloose/nerdcommenter' 	
+Plugin 'vim-scripts/OmniCppComplete' 	
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -20,8 +20,7 @@ let mapleader=';'
 ""===============================
 nmap <Leader>f <Plug>(easymotion-bd-f)
 nmap <Leader><leader>f <Plug>(easymotion-overwin-f)
-
-
+nmap <leader>1 <ESC>:!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<cr>
 "set
 ""===============================
 set number
@@ -33,11 +32,15 @@ syntax enable
 syntax on
 set omnifunc=syntaxcomplete#Complete
 set completeopt=menu
-set vb t_vb=
+set belloff=all
 colorscheme elflord
-"clang complete
+set nocp
+filetype on
+filetype plugin on
+
+"ctags
 ""=============================================================================================================
-let g:clang_library_path='/usr/lib/llvm-3.8/lib'
+set tags+=.vim/tags/cpp
 
 "ultisnips
 ""=============================================================================================================
@@ -57,3 +60,13 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0"
 
+
+"comments <leader>c<space>
+""=============================================================================================================
+let g:NERDSpaceDelims = 1
+let g:NERDCompactSexyComs = 1
+let g:NERDDefaultAlign = 'left'
+let g:NERDAltDelims_java = 1
+let g:NERDCustomDelimiters = { 'c': { 'left': '/**','right': '*/'  }  }
+let g:NERDCommentEmptyLines = 1
+let g:NERDTrimTrailingWhitespace = 1"
