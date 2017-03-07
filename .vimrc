@@ -20,7 +20,8 @@ let mapleader=';'
 ""===============================
 nmap <Leader>f <Plug>(easymotion-bd-f)
 nmap <Leader><leader>f <Plug>(easymotion-overwin-f)
-nmap <leader>1 <ESC>:!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<cr>
+nmap <f5> <esc>:!/home/lyc/.vim/ct/./ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<cr>
+
 "set
 ""===============================
 set number
@@ -70,3 +71,4 @@ let g:NERDAltDelims_java = 1
 let g:NERDCustomDelimiters = { 'c': { 'left': '/**','right': '*/'  }  }
 let g:NERDCommentEmptyLines = 1
 let g:NERDTrimTrailingWhitespace = 1"
+
