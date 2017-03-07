@@ -20,7 +20,7 @@ let mapleader=';'
 ""===============================
 nmap <Leader>f <Plug>(easymotion-bd-f)
 nmap <Leader><leader>f <Plug>(easymotion-overwin-f)
-nmap <f5> <esc>:!~/.vim/ct/./ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<cr>
+nmap <f5> <esc>:!~/.vim/ctags/./ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<cr>
 
 "set
 ""===============================
