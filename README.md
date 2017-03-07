@@ -3,7 +3,7 @@ A vim distribution
 
 Installation /n
 
-git clone https://github.com/liyich/Lvim.git, then run the commend "./install", it will install automatically.
+git clone https://github.com/liyich/Lvim.git, then run the commend "./install.sh", it will install automatically.
 
 Introduction
 
