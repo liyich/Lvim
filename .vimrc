@@ -20,7 +20,7 @@ let mapleader=';'
 ""===============================
 nmap <Leader>f <Plug>(easymotion-bd-f)
 nmap <Leader><leader>f <Plug>(easymotion-overwin-f)
-nmap <f5> <esc>:!/home/lyc/.vim/ct/./ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<cr>
+nmap <f5> <esc>:!~/.vim/ct/./ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<cr>
 
 "set
 ""===============================
@@ -41,8 +41,13 @@ filetype plugin on
 
 "ctags
 ""=============================================================================================================
-set tags+=.vim/tags/cpp
+set tags+=~/.vim/tags/cpp
 
+"function Meow()
+"	let g:desktop_path="lyc/"
+"	execute "set path=".g:desktop_path
+"endfunction
+"
 "ultisnips
 ""=============================================================================================================
 let g:UltiSnipsExpandTrigger="<c-o>"
