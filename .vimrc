@@ -34,7 +34,7 @@ syntax on
 set omnifunc=syntaxcomplete#Complete
 set completeopt=menu
 set vb t_vb=
-colorscheme elflord
+colorscheme industry
 set nocp
 filetype on
 filetype plugin on
